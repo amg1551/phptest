@@ -1,8 +1,8 @@
 <?php
-$servername = "sql7636802";
-$host = "sql7.freesqldatabase.com";
-$username = "sql7636802";
-$password = "EyHvrndE34";
+$servername = "bi4ubhbfbqicmlj1hc11";
+$host = "bi4ubhbfbqicmlj1hc11-mysql.services.clever-cloud.com";
+$username = "uvixmkpcrtl5xb7e";
+$password = "MGZyFhbulBb1pKnAzuT7;
 $baglanti = mysqli_connect($host,$username,$password);
 
 if($baglanti)
