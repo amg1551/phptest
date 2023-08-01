@@ -11,7 +11,12 @@ if($baglanti)
     echo "baglanti saglandi";
 
 }
+else
+{
 
+echo "hata";
+
+}
 mysqli_select_db($baglanti,$servername) or die ("olmadi uzdu") ;
 
 
