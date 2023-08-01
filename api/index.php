@@ -11,12 +11,7 @@ if($baglanti)
     echo "baglanti saglandi";
 
 }
-else
-{
 
-echo "hata";
-
-}
 mysqli_select_db($baglanti,$servername) or die ("olmadi uzdu") ;
 
 
@@ -38,9 +33,8 @@ if(isset($_POST["buton"]))
     $sql="insert into isimler(ad)values('".$_POST["ad"]."')";
     $sql2="insert into isimler(sifre)values('".$_POST["sifre"]."')";
     
-    $sonuc2= mysqli_query($baglanti,$sql2);
     $sonuc= mysqli_query($baglanti,$sql);
-   
+    $sonuc= mysqli_query($baglanti,$sql2);
 
 }
 
