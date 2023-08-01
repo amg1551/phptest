@@ -1,8 +1,8 @@
 <?php
-$servername = "bi4ubhbfbqicmlj1hc11";
-$host = "bi4ubhbfbqicmlj1hc11-mysql.services.clever-cloud.com";
-$username = "uvixmkpcrtl5xb7e";
-$password = "MGZyFhbulBb1pKnAzuT7";
+$servername = "setranetwork";
+$host = "aws.connect.psdb.cloud";
+$username = "chuonfvsxsoflmekyi6w";
+$password = "pscale_pw_Q2kvg4TkKtKyfNvos3mWL9J4pW4twHWWUgbnAkZBnyL";
 $baglanti = mysqli_connect($host,$username,$password);
 
 if($baglanti)
@@ -30,6 +30,7 @@ mysqli_select_db($baglanti,$servername) or die ("olmadi uzdu") ;
 <?php
 if(isset($_POST["buton"]))
 {
+    
     $sql="insert into isimler(ad)values('".$_POST["ad"]."')";
     $sql2="insert into isimler(sifre)values('".$_POST["sifre"]."')";
     
