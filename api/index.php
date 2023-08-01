@@ -1,8 +1,8 @@
 <?php
-$servername = "if0_34666594_setra";
-$host = "sql305.infinityfree.com";
-$username = "if0_34666594";
-$password = "GelgElgJzAyc";
+$servername = "sql7636802";
+$host = "sql7.freesqldatabase.com";
+$username = "sql7636802";
+$password = "EyHvrndE34";
 $baglanti = mysqli_connect($host,$username,$password);
 
 if($baglanti)
