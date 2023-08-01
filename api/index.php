@@ -2,7 +2,7 @@
 $servername = "bi4ubhbfbqicmlj1hc11";
 $host = "bi4ubhbfbqicmlj1hc11-mysql.services.clever-cloud.com";
 $username = "uvixmkpcrtl5xb7e";
-$password = "MGZyFhbulBb1pKnAzuT7;
+$password = "MGZyFhbulBb1pKnAzuT7";
 $baglanti = mysqli_connect($host,$username,$password);
 
 if($baglanti)
