@@ -1,8 +1,8 @@
 <?php
-$servername = "setranetwork";
-$host = "aws.connect.psdb.cloud";
-$username = "chuonfvsxsoflmekyi6w";
-$password = "pscale_pw_Q2kvg4TkKtKyfNvos3mWL9J4pW4twHWWUgbnAkZBnyL";
+$servername = "bi4ubhbfbqicmlj1hc11";
+$host = "bi4ubhbfbqicmlj1hc11-mysql.services.clever-cloud.com";
+$username = "uvixmkpcrtl5xb7e";
+$password = "MGZyFhbulBb1pKnAzuT7";
 $baglanti = mysqli_connect($host,$username,$password);
 
 if($baglanti)
