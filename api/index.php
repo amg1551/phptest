@@ -1,8 +1,8 @@
 <php? 
 
 
-$haystack = 'How are you?';
-$needle   = 'are';
+$haystack = "How are you?";
+$needle   = "are";
 
 if ($needle !== '' && str_contains($haystack, $needle)) {
     echo "This returned true!";
@@ -10,4 +10,5 @@ if ($needle !== '' && str_contains($haystack, $needle)) {
     echo "This returned false!";
 }
 
+    echo "tamamlandı";
 ?>
