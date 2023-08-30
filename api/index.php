@@ -1,7 +1,7 @@
 <php? 
+echo "whats happening";
 
-
-$haystack = "How are you?";
+$haystack = "How are you";
 $needle   = "are";
 
 if ($needle !== '' && str_contains($haystack, $needle)) {
